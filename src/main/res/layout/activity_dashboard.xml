@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_pg3"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_gravity="center"
+    tools:context=".DashboardActivity">
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/ImgView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/default_pp"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:text="NAME"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:hint="NAME"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="E-MAIL"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:hint="E-MAIL ID"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/signout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_weight="1"
+            android:background="#F3F3F3"
+            android:text="SIGN OUT" />
+
+        <Button
+            android:id="@+id/selectNgo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="#F3F3F3"
+            android:text="CHECK OUT NGOS" />
+    </LinearLayout>
+
+</LinearLayout>
