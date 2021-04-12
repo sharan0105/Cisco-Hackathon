@@ -1,1 +1,2 @@
 # Cisco-Hackathon
+An app which connects volunteers and donors to NGO'S . The basic motive of this project is to ensure that people can also fulfil their responsibilities towards the society and contribute in improving lives of other people by donating various things of need or by volunteering for certain tasks or activities of a particular NGO . Also , with the use of this app , people can easily donate as well locate the NGO they want to volunteer for thanks to the MAPS api provided by Google
